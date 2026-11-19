@@ -14,6 +14,7 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
+// Built in this session: the guide in app/ is the Leonida Platinum build — 55 trophies with cited guides, a roadmap and a spoiler-safe tracker — and this program hands it in unchanged apart from the dossier.
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
